@@ -1,5 +1,10 @@
 # FSWB-MERN-Jul-2026-PM
 
+## ES6 
+
+[React ES6](https://www.w3schools.com/react/react_es6.asp)
+
+
 ## Install node 
 
 [Download Node](https://nodejs.org/en/download)
