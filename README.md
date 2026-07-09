@@ -25,3 +25,7 @@ npm -v
 ```
 npm create vite@latest hello-world
 ```
+
+## Install the VS Code extension for React snippets
+
+- ES7+ React/Redux/React-Native snippets
