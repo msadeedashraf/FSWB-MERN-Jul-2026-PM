@@ -1,0 +1,20 @@
+
+
+const Mainsection = () => {
+  return (
+     <main>
+      <section class="hero">
+        <section class="hero-section">
+          <h2>Welcome to JobZila</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam
+            delectus aperiam corporis, veniam sequi vero eos minima perspiciatis
+            ut corrupti ex in
+          </p>
+        </section>
+      </section>
+    </main>
+  )
+}
+
+export default Mainsection

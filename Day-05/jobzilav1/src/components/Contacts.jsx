@@ -1,0 +1,28 @@
+
+const Contacts = () => {
+  return (
+     <main>
+      <section class="contact-section">
+        <h2>Contact Us</h2>
+        <div class="contact">
+
+          <form action="" class="contact-form">
+
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" required />
+          <label for="">Message</label>
+          <textarea name="message" id="message" rows="4" required ></textarea>
+          <input type="submit"/>
+        
+        
+        </form>
+        </div>
+      </section>
+    </main>
+  )
+}
+
+export default Contacts
