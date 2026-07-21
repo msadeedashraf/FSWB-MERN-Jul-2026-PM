@@ -1,10 +1,7 @@
 import { useState } from "react"
 import {FaTrashAlt } from 'react-icons/fa';
-
 const Content = () => {
 
-
-  
   const [items, setItems] = useState([
     {
       id: 1,
@@ -34,10 +31,7 @@ const Content = () => {
 
 
   ])
-
-
-   
-
+  
   return (
     <main>
       <ul>
@@ -63,5 +57,4 @@ const Content = () => {
     </main>
   )
 }
-
 export default Content
