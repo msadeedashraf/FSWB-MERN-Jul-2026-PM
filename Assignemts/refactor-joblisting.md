@@ -7,9 +7,9 @@ Repeat Yourself)** principle and using React's **`map()`** function to
 render multiple job listings.
 
 - Use this as the starting code folder
-- 
+    
 - file is [-](/Day-05/jobzilav1/src/components/Joblist.jsx)
-- 
+  
 - Code is on [code](/Day-05/jobzilav1/)
 
 ------------------------------------------------------------------------
