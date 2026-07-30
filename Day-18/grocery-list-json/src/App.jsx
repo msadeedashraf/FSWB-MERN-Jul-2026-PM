@@ -6,14 +6,17 @@ import { useState, useEffect } from "react";
 import AddItem from './AddItem';
 import SearchItem from './SearchItem';
 
+
 function App() {
+  const API_URL = 'http://localhost:3000/items';
 
   //const [items, setItems] = useState(JSON.parse(localStorage.getItem('shoppinglist')))
-  const [items, setItems] = useState(JSON.parse(localStorage.getItem('shoppinglist')) || [])
+  const [items, setItems] = useState([])
 
   const [newItem, setNewItem] = useState('')
   
   const [search, setSearch] = useState('')
+  //const [fetchError, setFetchError] = useState(null)
 
 
   // useEffect(  
@@ -28,13 +31,34 @@ function App() {
   console.log('before the useeffect')
 
   useEffect(  
-    () => {
+    () => {  
+      const fetchItems = async () => {
 
-      localStorage.setItem('shoppinglist', JSON.stringify(items))
-  
+        try {
+          const response = await fetch(API_URL);
+          const listItems = await response.json();
+          console.log(listItems)
+          setItems(listItems)
+          //setFetchError(null)
+
+            //some code here 
+        }
+        catch (err) {
+      //some code here 
+      console.log(err.stack)
+      //setFetchError(err.message)
+        }
+
+      }
+
+      ( async () => await fetchItems() )()
+
+     
+
+
     } 
     ,
-    [items]  
+    []  
   )
 
   //console.log('after the useeffect')

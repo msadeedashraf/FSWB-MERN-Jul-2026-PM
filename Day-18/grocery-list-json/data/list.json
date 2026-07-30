@@ -1,0 +1,36 @@
+{
+    "items":
+    [
+    {
+        "id": 1,
+        "checked": false,
+        "item": "Book"
+    },
+    {
+        "id": 2,
+        "checked": false,
+        "item": "apples"
+    },
+    {
+        "id": 3,
+        "checked": false,
+        "item": "eggs"
+    },
+    {
+        "id": 4,
+        "checked": false,
+        "item": "oranges"
+    },
+    {
+        "id": 5,
+        "checked": false,
+        "item": "milk"
+    },
+     {
+        "id": 6,
+        "checked": false,
+        "item": "bread"
+    }
+] 
+}
+
