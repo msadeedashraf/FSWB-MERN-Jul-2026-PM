@@ -2,8 +2,8 @@
 
 - [json-server](https://www.npmjs.com/package/json-server)
 
-```
-npm install json-server
+``
+npm install json-server@0.17.4
 ```
 
 - create a data folder in the root project folder 
@@ -52,6 +52,10 @@ cd data
 npx json-server list.json
 ```
 
+- or with a custom 
+```
+npx json-server -p 3200 list.json
+```
 - Test the url in the browser [http://localhost:3000/items]
 
 [URL](http://localhost:3000/items) 

@@ -64,7 +64,7 @@ function App() {
       }
 
 
-      setTimeout( () => {  ( async () => await fetchItems() )()}   , 5000)
+      setTimeout(  () => {  ( async () => await fetchItems() )()}  , 5000)
 
       
      
