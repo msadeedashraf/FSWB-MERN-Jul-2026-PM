@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "id": "2",
+      "checked": false,
+      "item": "apples"
+    },
+    {
+      "id": "4",
+      "checked": false,
+      "item": "oranges"
+    },
+    {
+      "id": "5",
+      "checked": true,
+      "item": "milk"
+    },
+    {
+      "id": 9,
+      "checked": false,
+      "item": "eggs"
+    },
+    {
+      "id": 10,
+      "checked": false,
+      "item": "kiwi"
+    },
+    {
+      "id": 11,
+      "checked": true,
+      "item": "Book"
+    },
+    {
+      "id": 12,
+      "checked": true,
+      "item": "apples"
+    },
+    {
+      "id": 13,
+      "checked": false,
+      "item": "Bread"
+    }
+  ]
+}
