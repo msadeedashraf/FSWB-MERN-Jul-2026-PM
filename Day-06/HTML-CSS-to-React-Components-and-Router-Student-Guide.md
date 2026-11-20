@@ -191,14 +191,10 @@ export default Mainsection;
 
 Important parts:
 
-```jsx
-const Mainsection = () => {
-```
-
 This creates the component function.
 
 ```jsx
-return (
+const Mainsection = () => {return ()}
 ```
 
 This tells React what should appear on the screen.
